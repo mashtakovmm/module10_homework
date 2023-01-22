@@ -1,0 +1,41 @@
+.btn {
+    border-radius: 5px;
+    border-color: rgb(6, 53, 29);
+    color: white;
+
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: rgb(8, 112, 60);
+    transition: 0.3s;
+}
+
+.input {
+    padding: 5px 10px;
+    background-color: rgba(36, 204, 117, 0.096);
+    border-radius: 5px;
+    border-color: rgb(6, 53, 29);
+    color: white;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.client {
+    color: white;
+}
+
+.server, a:link, a:visited {
+    color: rgb(25, 233, 129);
+}
+
+a:hover {
+    color: white;
+}
+
+
+body {
+    background-color: rgb(24, 23, 22);
+}
